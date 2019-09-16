@@ -29,22 +29,73 @@
 html{
    background-color: rgb(209, 186, 52);
 }
+body section#leftcol{
+   background-color: white;
+}
 body{
-   background-color: antiquewhite;
+   background-color: rgb(218, 181, 228);
 }
-section#leftcol{
-   margin-top: 1em;
-   margin-bottom: 1em;
-}
-section>h1{
-   font-family: Champagne, sans-serif;
-   font-size: 5em;
-}
-section>p{
-   padding-left: 1.9em;
-}
+
 footer{
    background-color: rgb(101,101,101);
    text-align: center;
    color: white;
+}
+/* Sectioning Styles */
+section>h1{
+   font-family: Champagne, sans-serif;
+   font-size: 5em;
+   margin: 0px;
+}
+section>p{
+   padding-left: 1.9em;
+}
+/* Body Styles */
+/* Left Column */
+body section#leftcol aside>h1:first-of-type{
+   text-align: center;
+   font-size: 1.5em;
+}
+body section#leftcol aside>h2{
+   font-size: 1.2em;
+}
+body section#leftcol aside:first-of-type{
+   background-color: salmon;
+   padding-bottom: 30px;
+}
+body section#leftcol aside{
+   background-color: goldenrod;
+}
+/* Right Column */
+body section#rightcol nav>ul{
+   list-style-type: none;
+   line-height: 1.5em;
+}
+body section#rightcol nav a:link{
+   text-decoration: none;
+   color: gray;
+}
+body section#rightcol nav a:hover, nav a:active{
+   background-color: rgb(209, 154, 224)
+}
+nav>h2{
+   font-family: Champagne, sans-serif;
+   font-size: 2em;
+}
+/* Header Nav styles */
+header nav{
+   background-color: purple;
+}
+header nav a:link, header nav a:visited{
+   color: white;
+   text-decoration: none;
+   font-size: 1.3em;
+}
+header nav a:hover, header nav:active{
+   background-color: darkorchid;
+}
+/* Blockquote Styles */
+blockquote{
+   color: purple;
+   font-size: 1.2em;
 }
